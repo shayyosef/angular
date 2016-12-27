@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="../css/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="../scripts/angular.min.js"></script>
+    <script src="../scripts/ui-bootstrap-tpls.min.js"></script>
+    <script src="../scripts/ui-bootstrap.min.js"></script>
+    <link href="../css/Style.css" rel="stylesheet" />
+
+
+</head>
+<body ng-app="wiezmanConfigModule">
+   
+    <wiezman-config-component>
+        <force-update-all-component></force-update-all-component>
+    </wiezman-config-component>
+
+    <script>
+        var app = angular.module('wiezmanConfigModule', ['ui.bootstrap']);
+       
+    </script>
+    <script src="/DIST/APP/Controllers/forceUpdateAllController.js"></script>
+    <script src="/DIST/APP/Controllers/WiezmanConfigController.js"></script>
+
+    <script src="/DIST/APP/Component/WiezmanConfig.component.js"></script>
+    <script src="/DIST/APP/Component/ForceUpdateAll.component.js"></script>
+</body>
+</html>

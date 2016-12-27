@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "name": "asp.net",
+  "private": true,
+  "devDependencies": {
+    "fs": "latest",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-typescript": "^3.1.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-rename": "1.2.2",
+    "merge": "latest",
+    "requirejs": "latest",
+    "typescript": "latest",
+    "angular": "1.6.1",
+    "xrm-webapi": "^0.5.1",
+    "jquery": "3.1.1",
+    "bootstrap": "3.3.7",
+    "angular-bootstrap": "0.12.2"
+  },
+  "dependencies": {
+    "@types/es6-promise": "0.0.32"
+  }
+}

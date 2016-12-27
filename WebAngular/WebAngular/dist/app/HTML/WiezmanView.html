@@ -1,0 +1,5 @@
+﻿<div uib-alert ng-repeat="alert in $ctrl.alerts" ng-class="'alert-' + (alert.type || 'warning')"
+     close="closeAlert($index)">{{alert.msg}}</div>
+<div class="container" ng-transclude>
+    <button type="button" class='btn btn-default' ng-click="addAlert()">Add Alert</button>
+</div>
